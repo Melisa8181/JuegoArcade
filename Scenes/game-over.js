@@ -20,7 +20,7 @@ export class GameOver extends Phaser.Scene {
         this.restartButton.create();
         this.gameoverImage = this.add.image(400, 90, 'gameover');
 
-        this.add.text(400, 200, `PUNTAJE FINAL: ${this.finalScore}`, {
+        this.add.text(400, 170, `PUNTAJE FINAL: ${this.finalScore}`, {
             fontSize: '24px',
             fill: '#fff',
             fontFamily: 'verdana, arial, sans-serif',
