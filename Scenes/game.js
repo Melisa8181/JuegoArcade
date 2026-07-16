@@ -112,7 +112,7 @@ export class Game extends Phaser.Scene {
     }
 
     showGameOver() {
-        this.scene.start('gameover', { score: this.scoreboard.getPoints() });
+        this.scene.start('gameover', { score: this.scoreboard.score });
     }
 
     showCongratulations() {
