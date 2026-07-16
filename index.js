@@ -1,6 +1,6 @@
 import { Game } from './Scenes/game.js';
 import { GameOver } from './Scenes/game-over.js';
-import { Congratulations } from './Scenes/congratulations';
+import { Congratulations } from './Scenes/congratulations.js';
 
 const config = {
     type: Phaser.AUTO,
