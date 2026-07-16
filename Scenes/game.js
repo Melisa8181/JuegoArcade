@@ -46,6 +46,7 @@ export class Game extends Phaser.Scene {
 
         this.platform = this.physics.add.image(400, 460, 'platform').setImmovable();
         this.platform.body.allowGravity = false;
+        this.platform.setCollideWorldBounds(true);
 
         this.ball = this.physics.add.image(385, 430, 'ball');
         this.ball.setData('glue', true);
