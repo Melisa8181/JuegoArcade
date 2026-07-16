@@ -50,3 +50,9 @@ Este proyecto es un juego arcade clásico de destrucción de bloques. El jugador
 2. Accedé a la carpeta:
      cd nombre-del-repo
 4. Ejecutá el archivo index.html utilizando un servidor local (como Live Server en VS Code) para que cargue correctamente los módulos de JavaScript sin problemas de políticas CORS.
+
+---
+
+## 🚧 Estado del Proyecto e Iteraciones Futuras
+El proyecto se encuentra completamente funcional.
+*   [ ] **Próximo paso:** Implementar un sistema de niveles progresivos (al romper todos los bloques, pasar a una pantalla con un diseño de bloques más complejo o mayor velocidad en la pelota).
